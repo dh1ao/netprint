@@ -1,8 +1,8 @@
 # netprint
 
 NetPrint is a little helper class for quick and dirty debugging Python scripts. Occasionally you may find it as usefull as I do to simpy print some information in your
-source code out to the terminal. For instance developing an addon for blender only windows user are offered a "console", when blender encounters a problem or display
-information. Linux and Mac Users don't have it. Or working on an embedded device like Raspi it may come in handy to watch the output of standard print statements on your 
+source code out to the terminal. For instance developing an addon for blender only windows user are offered a "console", when blender encounters a problem or displays
+information. Linux and Mac Users don't have it by default. Working on an embedded device like Raspi is another example. It may come in handy to watch the output of standard print statements on your
 smartphone, tablet or laptop. In the simplest case a telnet connection will be enough. 
 
 NetPrint is a direct descendant of socket from the standard python library, so all options from socket.socket are available.
