@@ -39,4 +39,4 @@ for i in range(100000):
 
 NetPrint.stop()
 
-https://github.com/dh1ao/netprint/blob/master/Screenshot_20211227-183413_JuiceSSH.jpg
+![screen smartphone](Screenshot_20211227-183413_JuiceSSH.jpg)
