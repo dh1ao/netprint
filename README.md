@@ -38,5 +38,5 @@ for i in range(100000):
     sleep(1)
 
 NetPrint.stop()
-
+```
 ![screen smartphone](Screenshot_20211227-183413_JuiceSSH.jpg)
