@@ -27,7 +27,8 @@ Another parameter is throttle, which defines the duration between successive rea
 The rest of the parameters is as documented in https://docs.python.org/3/library/socket.html
 
 #### Example
-```python from netprint import NetPrint
+```python
+from netprint import NetPrint
 from time import sleep
 
 NetPrint(12345).run()
