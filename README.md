@@ -38,3 +38,5 @@ for i in range(100000):
     sleep(1)
 
 NetPrint.stop()
+
+![screenshot smartphone](https://github.com/dh1ao/netprint/blob/master/Screenshot_20211227-183413_JuiceSSH.jpg)
