@@ -39,6 +39,6 @@ for i in range(100000):
 
 NetPrint.stop()
 ```
-![screen smartphone](Screenshot_20211227-183413_JuiceSSH.jpg)
+
 ![blender_screen](blendernetprint.png)
 ![blender_smart](Screenshot_20211227-185459_JuiceSSH.jpg)
