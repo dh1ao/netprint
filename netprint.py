@@ -18,7 +18,7 @@ class NetPrint(socket):
 
         NetPrint.port = port
         NetPrint.throttle = throttle
-        NetPrint.outputThread = threading.Thread(target=NetPrint.outputLoop)
+        NetPrint.outputThread = threading.Thread(target=NetPrint.outputLoop, daemon=True)
         
         NetPrint.outputSocket = socket()
         for _ in range(10):
