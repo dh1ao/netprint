@@ -82,7 +82,10 @@ class NetPrint(socket):
     def run(cls):
         cls._redirectOutput()
         cls.running = True
-        cls.outputThread.start()
+        if cls.outputThread is not None:
+            cls.outputThread.start()
+        else:
+            raise Exception("NetPrint().run() not NetPrint.run() :)")
         return cls
         
         

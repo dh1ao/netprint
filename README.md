@@ -12,6 +12,10 @@ Simply download netprint.py into your project directory or use a pip install
 
 **pip install git+https://github.com/dh1ao/netprint**
 
+if you use pipenv install a #egg is needed
+
+**pip install git+https://github.com/dh1ao/netprint#egg=netprint**
+
 ## Usage
 In your script import netprint
 #### from netprint import NetPrint
